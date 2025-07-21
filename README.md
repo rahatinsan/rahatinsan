@@ -1,49 +1,45 @@
-- 👋 Hi, I’m @rahatinsan
-- 👀 I’m interested in website design % drawing % developer.
-- 🌱 I’m currently learning html,css,php,javascript,jquery,my-sql,wordpress.
-- 💞️ I’m looking to collaborate on Freelancer,Upwork,LinkEdin and other site.
-- 📫 My Facebook Account www.facebook.com/insan.rahat % Email: insanrahat60@gmail.com
-- 😄 Pronouns: I'm always trying my best but always expecting better concept in my 
-     client. 
-- ⚡ Fun fact: You trust me I trust you.
 
-<!---
-rahatinsan/rahatinsan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-<!docktype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title> This is INSUN profile/title>
-	<style>
-	body {
-		margin: 0;
-		background: url(https://scontent.fdac146-1.fna.fbcdn.net/v/t39.30808-6/424852814_3561333814106004_4113874241283293488_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGLVja-	 
-                PHKiILuWEgJKMx9P9TTzO0AtZ331NPM7QC1nfXhiE154uaU0O_GHjLkmvV9w7kea7J6AVvDBR1kch-RH&_nc_ohc=s062f3-3X_YQ7kNvgGUEU6I&_nc_zt=23&_nc_ht=scontent.fdac146- 
-                1.fna&_nc_gid=AwZGewekh7Yz6dIUqygq9am&oh=00_AYA9QPbDdTvMgBeFYKB5wc_wJGGqpcnFBE1PMTsI113cUQ&oe=673619DA) no-repeat 100 100 / cover;
-	}
-	.one {
-		width: 50%;
-		height: 150px;
-		margin: auto;
-		color: red;
-		background: rgba(30, 39, 46,0.4);
-	}
-	h1 {
-		padding-left: 50%;
-		border: 5px solid #44bd32;
-	}
+# 🔒 সচেতন নাগরিক প্ল্যাটফর্ম
 
-	</style>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-	<div class="main">
-		<div class="one">
-			<h1><a href="www.facebook.com/insan.rahat">Rahat Insan</a></h1>
-			<h1><a href="insanrahat60@gmail.com">Email</a></h1>
-		</div>
-	</div>
-</body>
-</html>
+বাংলাদেশের নাগরিকদের জন্য একটি প্ল্যাটফর্ম যেখানে তারা রাজনৈতিক এবং সামাজিক অপরাধের রিপোর্ট করতে পারবেন যাচাইযোগ্য প্রমাণসহ। Firebase backend, dynamic location filtering, secure authentication সহ সম্পূর্ণ অ্যাপ্লিকেশন।
+
+---
+
+## 🚀 Live Site
+
+👉 [Click Here to Visit](https://your-project-id.web.app)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, Tailwind CSS, Vanilla JavaScript
+- **Backend:** Firebase (Auth, Firestore, Storage, Functions)
+- **Hosting:** Firebase Hosting
+- **Admin Panel:** Filter, Search, Approve/Reject System
+- **Authentication:** Email/Phone with OTP verification
+
+---
+
+## ✨ Features
+
+- 🔐 Email & Phone Number Verification (Firebase Auth)
+- 📋 User Dashboard with Personalized Greeting
+- 📝 Crime Reporting Form with:
+  - Name, contact, address
+  - Division → District → Thana → Union dynamic dropdown
+  - Political party & crime type selection
+  - Audio/Video/Image/PDF upload (≤100MB total)
+- 👀 Public view of published reports (without login)
+- 🧠 Admin Panel:
+  - Approve/Reject reports
+  - Search by name/address
+  - Filter by union/thana
+  - Status change notifications (email/SMS ready)
+- 📱 Responsive UI with animation warnings and transitions
+
+---
+
+## 📦 Folder Structure
+
+project-root/ │ ├── public/ │   ├── index.html          # Landing page │   ├── login.html │   ├── dashboard.html │   ├── admin.html │   └── css/ │       └── style.css       # Custom design │ ├── functions/              # Firebase Cloud Functions │ ├── firebase.json           # Firebase config ├── .firebaserc             # Firebase project alias ├── .gitignore └── README.md
